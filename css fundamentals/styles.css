@@ -1,0 +1,136 @@
+/* * {
+  border-top: 12px solid #6faa83;
+} */
+
+body {
+  font-family: sans-serif;
+  color: #444;
+  border-top: 10px solid #444;
+}
+h1,
+h2,
+h3 {
+  color: #0e798a;
+}
+h1 {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+h2 {
+  font-size: 40px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+p {
+  font-size: 22px;
+  line-height: 1.5;
+}
+li {
+  font-size: 20px;
+}
+/* footer p {
+    font-size: 16px;
+
+} */
+/*header p {
+    font-style: italic;
+}*/
+#author {
+  font-style: italic;
+  font-size: 10px;
+}
+#copyright {
+  font-size: 16px;
+}
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+/* ul {
+    list-style: none;
+} */
+.related {
+  list-style: none;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+}
+body {
+  background-color: #92975f5e;
+}
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #0e798a;
+  border-bottom: 5px solid #0e798a;
+}
+
+/* .first-li {
+  font-style: italic;
+} */
+
+li:first-child {
+  font-weight: bold;
+}
+li:last-child {
+  font-style: italic;
+}
+/* li:nth-child(2) {
+  color: red;
+
+} */
+li:nth-child(odd) {
+  color: #4f31a0;
+}
+/* STYLING LINKS */
+
+a:link {
+  color: #0e798a;
+  text-decoration: none;
+}
+a:visited {
+  color: #0e798a;
+}
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+/* LVHA */
+
+/* RESOLVING CONFLICTS */
+/* 
+#copyright {
+  color: blue;
+}
+
+.copyright {
+  color: red;
+}
+
+.text {
+  color: yellowgreen;
+}
+footer p {
+  color: olive !important;
+} */
+
+/* nav a:link,
+nav p {
+  font-size: 18px;
+} */
+
+nav {
+  font-size: 18px;
+}
