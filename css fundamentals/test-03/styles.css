@@ -1,0 +1,114 @@
+body {
+  font-family: sans-serif;
+  border: 5px solid #444;
+  line-height: 1.4;
+  width: 825px;
+  margin: 50px auto;
+  padding: 0;
+  position: relative;
+}
+.product-title {
+  margin: 0;
+}
+h2 {
+  text-align: center;
+  background-color: rgba(68, 68, 68, 0.377);
+}
+.price {
+  font-weight: bold;
+  font-size: 24px;
+}
+.shipping {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #777;
+}
+
+.more-info:link,
+.more-info:visited {
+  color: black;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.more-info:hover {
+  text-decoration: none;
+}
+
+.more-info:active {
+  text-decoration: none;
+
+}
+
+.details-title {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.details-list {
+  list-style: square;
+}
+
+.add-cart {
+  background-color: black;
+  color: wheat;
+  font-size: 20px;
+  border-top: 5px solid #000;
+  text-transform: uppercase;
+  padding: 15px auto;
+  cursor: pointer;
+  width: 100%;
+  height: 50px;
+}
+.add-cart:hover {
+  background-color: white;
+  color: black;
+}
+.sale {
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: red;
+  padding: 5px;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: -20px;
+  left: -25px;
+  letter-spacing: 2px;
+}
+.x{
+  position: relative;
+  display: inline-block;
+}
+.color-black {
+  background-color: black;
+  height: 20px;
+  width: 20px;
+  
+}
+.color-blue {
+  background-color: aqua;
+  height: 20px;
+  width: 20px;
+}
+.color-red {
+  background-color: red;
+  height: 20px;
+  width: 20px;
+}
+.color-yellow {
+  background-color: tan;
+  height: 20px;
+  width: 20px;
+}
+.color-green {
+  background-color: greenyellow;
+  height: 20px;
+  width: 20px;
+}
+.color-brown {
+  background-color: brown;
+  height: 20px;
+  width: 20px;
+}
